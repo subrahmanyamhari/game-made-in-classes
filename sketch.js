@@ -94,7 +94,6 @@ function setup() {
     logosprite=createSprite(width/2,height/2,width,height)
     logosprite.addImage(logo)
     logosprite.scale=2
-    logosprite.visible=false
 
     ground=createSprite(windowWidth/2,windowHeight-20,windowWidth*2,10)
     playbutton = createButton("play")
